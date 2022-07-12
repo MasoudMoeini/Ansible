@@ -1,7 +1,8 @@
 ---
 - name: nginx install and start services
-  hosts: all
-  become: true
+  hosts: localhost
+  connection: local 
+  #become: true
 
   tasks:
   - name: install nginx

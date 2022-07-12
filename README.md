@@ -15,11 +15,9 @@ server_hostname
 ansible-inventory -i inventory --list
 ```
 ```
-ansible-playbook -i inventory playbook.yml
-```
-
-```
+ansible-playbook -i inventory playbook.yaml
 ansible-playbook -i hosts nginx.yaml --check 
+ansible-playbook nginx.yaml
 ```
 
 
