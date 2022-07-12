@@ -43,5 +43,6 @@ ansible-playbook -i hosts nginx.yaml --check
 ansible-playbook nginx.yaml
 ansible-playbook -i ansible-hosts ansible-local-all.yml 
 ```
+**The output should be list of files and folders in current directory**
 
 
