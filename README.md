@@ -17,6 +17,7 @@ ansible-inventory -i inventory --list
 ```
 ```
 ansible-playbook -i inventory playbook.yaml
+ansible-playbook -i ansible-hosts playbook.yaml
 ansible-playbook -i hosts nginx.yaml --check 
 ansible-playbook nginx.yaml
 ```
