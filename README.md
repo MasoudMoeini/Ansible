@@ -6,6 +6,7 @@ You need invetory, To Set Up Ansible Inventories:<br/>
 ```
 nano ansible inventory
 ```
+```
 203.0.113.111
 203.0.113.112
 203.0.113.113
